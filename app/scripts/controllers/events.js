@@ -12,6 +12,45 @@ angular.module('acmSiteApp')
 
     $scope.calendar = [
       {
+        year: "2017",
+        months: [
+          {
+            month: "October",
+            events: [
+              {
+                date: "TBD",
+                time: "TBD",
+                location: "TBD",
+                name: "TBD",
+              }
+            ]
+          },
+          {
+            month: "September",
+            events: [
+              {
+                date: "26th",
+                time: "5:30pm-7:00pm",
+                location: "Reaney Park",
+                name: "Multi-club BBQ"
+              },
+              {
+                date: "19th",
+                time: "5:30pm-6:30pm",
+                location: "Sloan 327",
+                name: "ACM Intro Meeting"
+              },
+              {
+                date: "6th",
+                time: "5:30pm-6:30pm",
+                location: "Sloan 160",
+                name: "CrimsonCode Hackathon Interest Meeting"
+              }
+            ]
+          }
+        ]
+      }
+      {
         year: "2016",
         months: [
           {

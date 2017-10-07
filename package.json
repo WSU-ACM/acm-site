@@ -33,12 +33,28 @@
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.1",
     "phantomjs-prebuilt": "^2.1.11",
-    "time-grunt": "^1.0.0"
+    "time-grunt": "^1.4.0"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
     "test": "karma start test/karma.conf.js"
-  }
+  },
+  "description": "This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular) version 0.15.1.",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RachelMiri/acm-site.git"
+  },
+  "author": "rforbes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RachelMiri/acm-site/issues"
+  },
+  "homepage": "https://github.com/RachelMiri/acm-site#readme"
 }
